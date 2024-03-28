@@ -45,3 +45,8 @@ pg_dump -cC --inserts -U freecodecamp worldcup > worldcup.sql
 ./insert_data.sh
 ./queries.sh
 git init
+git add .
+git commit -m "finish "
+git branch -M main
+git remote add origin https://github.com/trantheduy123/Build-world-cup.git
+git push -u origin main

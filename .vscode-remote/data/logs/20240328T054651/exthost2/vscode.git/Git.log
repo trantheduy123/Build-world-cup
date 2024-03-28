@@ -1,0 +1,101 @@
+2024-03-28 06:46:20.467 [info] Log level: Info
+2024-03-28 06:46:20.467 [info] Validating found git in: "git"
+2024-03-28 06:46:20.467 [info] Using git "2.43.0" from "git"
+2024-03-28 06:46:20.467 [info] > git rev-parse --show-toplevel [2ms]
+2024-03-28 06:46:20.467 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-03-28 06:46:20.467 [info] > git rev-parse --show-toplevel [2ms]
+2024-03-28 06:46:20.467 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-03-28 06:46:20.467 [info] > git rev-parse --show-toplevel [1ms]
+2024-03-28 06:46:20.467 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-03-28 06:46:20.467 [info] > git rev-parse --show-toplevel [1ms]
+2024-03-28 06:46:20.467 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-03-28 06:46:20.467 [info] > git rev-parse --show-toplevel [1ms]
+2024-03-28 06:46:20.467 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-03-28 06:46:20.467 [info] > git rev-parse --show-toplevel [115ms]
+2024-03-28 06:46:20.467 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-03-28 06:46:20.467 [info] > git rev-parse --show-toplevel [2ms]
+2024-03-28 06:46:20.467 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2024-03-28 06:46:20.467 [info] Open repository: /workspace/project
+2024-03-28 06:46:20.467 [info] > git config --get commit.template [6ms]
+2024-03-28 06:46:20.467 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-03-28 06:46:20.467 [warning] ENOENT: no such file or directory, open '/workspace/project/.git/refs/remotes/origin/main'
+2024-03-28 06:46:20.467 [info] > git rev-parse refs/remotes/origin/main [4ms]
+2024-03-28 06:46:20.467 [info] > git status -z -uall [2ms]
+2024-03-28 06:46:20.468 [info] > git config --get commit.template [2ms]
+2024-03-28 06:46:20.475 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-03-28 06:46:20.481 [warning] ENOENT: no such file or directory, open '/workspace/project/.git/refs/remotes/origin/main'
+2024-03-28 06:46:20.482 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-03-28 06:46:20.489 [info] > git status -z -uall [2ms]
+2024-03-28 06:46:20.973 [info] > git check-ignore -v -z --stdin [1ms]
+2024-03-28 06:46:22.462 [info] > git config --get commit.template [8ms]
+2024-03-28 06:46:22.462 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-03-28 06:46:22.468 [warning] ENOENT: no such file or directory, open '/workspace/project/.git/refs/remotes/origin/main'
+2024-03-28 06:46:22.469 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-03-28 06:46:22.483 [info] > git status -z -uall [3ms]
+2024-03-28 06:46:23.417 [info] > git config --local branch.main.github-pr-owner-number [118ms]
+2024-03-28 06:46:23.418 [warning] git config failed: Failed to execute git
+2024-03-28 06:46:24.522 [info] > git merge-base refs/heads/main refs/remotes/origin/main [2ms]
+2024-03-28 06:46:24.530 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [2ms]
+2024-03-28 06:46:24.803 [info] > git rev-parse --show-toplevel [4ms]
+2024-03-28 06:46:24.803 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-03-28 06:46:25.314 [info] > git check-ignore -v -z --stdin [1ms]
+2024-03-28 06:46:36.285 [info] > git show --textconv :.git/COMMIT_EDITMSG [8ms]
+2024-03-28 06:46:36.287 [info] > git ls-files --stage -- /workspace/project/.git/COMMIT_EDITMSG [2ms]
+2024-03-28 06:46:36.406 [info] > git check-ignore -v -z --stdin [1ms]
+2024-03-28 06:46:36.862 [info] > git ls-files --stage -- /workspace/project/.git/COMMIT_EDITMSG [1ms]
+2024-03-28 06:46:37.066 [info] > git show --textconv :.git/COMMIT_EDITMSG [2ms]
+2024-03-28 06:46:46.268 [info] > git rev-parse --show-toplevel [1ms]
+2024-03-28 06:46:46.278 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2024-03-28 06:46:46.283 [info] Open repository: /workspace
+2024-03-28 06:46:46.297 [info] No remotes found in the git config file.
+2024-03-28 06:46:46.297 [info] > git config --get commit.template [6ms]
+2024-03-28 06:46:46.298 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-03-28 06:46:46.298 [warning] No such branch: master.
+2024-03-28 06:46:46.308 [info] > git status -z -uall [5ms]
+2024-03-28 06:46:46.374 [info] No remotes found in the git config file.
+2024-03-28 06:46:46.375 [info] > git config --get commit.template [10ms]
+2024-03-28 06:46:46.375 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-03-28 06:46:46.375 [warning] No such branch: master.
+2024-03-28 06:46:46.533 [info] > git status -z -uall [151ms]
+2024-03-28 06:46:47.410 [info] > git config --local branch.master.github-pr-owner-number [2ms]
+2024-03-28 06:46:47.410 [warning] git config failed: Failed to execute git
+2024-03-28 06:46:47.425 [info] > git config --local branch.master.remote [1ms]
+2024-03-28 06:46:47.425 [warning] git config failed: Failed to execute git
+2024-03-28 06:46:47.435 [info] > git config --local branch.master.merge [1ms]
+2024-03-28 06:46:47.437 [warning] git config failed: Failed to execute git
+2024-03-28 06:46:47.537 [info] > git check-ignore -v -z --stdin [12ms]
+2024-03-28 06:46:47.538 [info] > git check-ignore -v -z --stdin [2ms]
+2024-03-28 06:46:51.060 [info] > git check-ignore -v -z --stdin [1ms]
+2024-03-28 06:46:52.267 [info] No remotes found in the git config file.
+2024-03-28 06:46:52.268 [info] > git config --get commit.template [7ms]
+2024-03-28 06:46:52.268 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-03-28 06:46:52.268 [warning] No such branch: master.
+2024-03-28 06:46:52.278 [info] > git status -z -uall [3ms]
+2024-03-28 06:46:52.336 [info] > git check-ignore -v -z --stdin [1ms]
+2024-03-28 06:46:57.534 [info] > git add -A -- . [1107ms]
+2024-03-28 06:46:57.535 [info] warning: adding embedded git repository: project
+hint: You've added another git repository inside your current repository.
+hint: Clones of the outer repository will not contain the contents of
+hint: the embedded repository and will not know how to obtain it.
+hint: If you meant to add a submodule, use:
+hint: 
+hint: 	git submodule add <url> project
+hint: 
+hint: If you added this path by mistake, you can remove it from the
+hint: index with:
+hint: 
+hint: 	git rm --cached project
+hint: 
+hint: See "git help submodule" for more information.
+2024-03-28 06:46:58.660 [info] > git show --textconv :.git/COMMIT_EDITMSG [12ms]
+2024-03-28 06:46:58.661 [info] > git ls-files --stage -- /workspace/.git/COMMIT_EDITMSG [1ms]
+2024-03-28 06:46:58.793 [info] > git check-ignore -v -z --stdin [1ms]
+2024-03-28 06:46:59.188 [info] > git ls-files --stage -- /workspace/.git/COMMIT_EDITMSG [1ms]
+2024-03-28 06:46:59.389 [info] > git show --textconv :.git/COMMIT_EDITMSG [2ms]
